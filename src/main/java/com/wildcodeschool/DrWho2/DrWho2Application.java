@@ -15,7 +15,7 @@ import org.springframework.web.server.ResponseStatusException;
 public class DrWho2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DrWhoApplication.class, args);
+		SpringApplication.run(DrWho2Application.class, args);
 	}
 
 	@RequestMapping("/doctor/{incarnation_number}")
