@@ -22,7 +22,7 @@ public class DrWho2Application {
 	@ResponseBody
 	public String index1(@PathVariable String incarnation_number) {
 		Integer incarnation_number_int = Integer.parseInt(incarnation_number);
-		String retString = "{number: " + incarnation_number + " name: ";
+		String retString = "{number: " + incarnation_number + ", name: ";
 		switch (incarnation_number_int) {
 		case 1:
 		case 2:
